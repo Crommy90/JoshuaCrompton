@@ -1,2 +1,2 @@
-# joshua-crompton-co-uk
+# JoshuaCrompton
  The website for joshuacrompton.co.uk
