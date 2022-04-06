@@ -1,0 +1,10 @@
+<a class="nav-link" href="#">
+    @ChildContent
+</a>
+
+
+@code
+{
+  [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}
