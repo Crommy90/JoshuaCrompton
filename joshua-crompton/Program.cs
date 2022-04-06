@@ -1,4 +1,4 @@
-using joshua_crompton_co_uk;
+using joshua_crompton;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
