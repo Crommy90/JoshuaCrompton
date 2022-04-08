@@ -1,21 +1,17 @@
 ﻿@inherits LayoutComponentBase
 
-@using JoshuaCrompton.Components.Bootstrap
-
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
+    <header>
+        <NavBar>
+            <NavBarLink>Hello</NavBarLink>
+            <NavBarLink>Hello</NavBarLink>
+            <NavBarLink>Hello</NavBarLink>
+        </NavBar>
+    </header>
 
     <main>
-
-    <NavBar>
-        <NavLink>Hello</NavLink>
-    </NavBar>
-
-        <article class="content px-4">
+        <Container>
             @Body
-        </article>
+        </Container>
     </main>
 </div>
