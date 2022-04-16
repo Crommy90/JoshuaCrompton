@@ -1,12 +1,33 @@
 ﻿@page "/"
 
-<PageTitle>Joshua Crompton</PageTitle>
+<Container Class="p-5 mb-4 bg-light rounded-3">
+    <PageTitle>Joshua Crompton</PageTitle>
 
-<Title>Joshua Crompton</Title>
+    <Title>Hello, I'm Joshua Crompton</Title>
 
-<Subtitle>A subtitle</Subtitle>
+    <Subtitle>I'm a Tools Programmer in the Games Industry, currently working at Media Molecule.</Subtitle>
 
-<ContentSection>
-    <ContentTitle>This is content title</ContentTitle>
-    <p>This is some content text</p>
-</ContentSection>
+    <p></p>
+</Container>
+<Container>
+    <RowResponsive>
+        <ColumnResponsive Size=6>
+            <div class=@_contentCardClass>
+                <ContentTitle>Media Molecule</ContentTitle>
+                <p>Short blurb about Media Molecule</p>
+            </div>
+        </ColumnResponsive>
+        <ColumnResponsive Size=6>
+            <div class=@_contentCardClass>
+                <ContentTitle>Sports Interactive</ContentTitle>
+                <p>Short blurb about Sports Interactive</p>
+            </div>
+        </ColumnResponsive>
+    </RowResponsive>
+</Container>
+
+
+@code
+{
+    private string _contentCardClass = "h-100 p-5 bg-dark text-white border rounded-3";
+}
