@@ -1,33 +1,23 @@
 ﻿@page "/"
 
-<Container Class="p-5 mb-4 bg-light rounded-3">
+<Container Class=@Constants.ClassJumboTron>
     <PageTitle>Joshua Crompton</PageTitle>
 
     <Title>Hello, I'm Joshua Crompton</Title>
 
     <Subtitle>I'm a Tools Programmer in the Games Industry, currently working at Media Molecule.</Subtitle>
 
-    <p></p>
+    <p>Paragraph text</p>
 </Container>
 <Container>
     <RowResponsive>
-        <ColumnResponsive Size=6>
-            <div class=@_contentCardClass>
-                <ContentTitle>Media Molecule</ContentTitle>
-                <p>Short blurb about Media Molecule</p>
-            </div>
-        </ColumnResponsive>
-        <ColumnResponsive Size=6>
-            <div class=@_contentCardClass>
-                <ContentTitle>Sports Interactive</ContentTitle>
-                <p>Short blurb about Sports Interactive</p>
-            </div>
-        </ColumnResponsive>
+        <Card Size=6>
+            <ContentTitle>Media Molecule</ContentTitle>
+            <p>Short blurb about Media Molecule</p>
+        </Card>
+        <Card Size=6>
+            <ContentTitle>Sports Interactive</ContentTitle>
+            <p>Short blurb about Sports Interactive</p>
+        </Card>
     </RowResponsive>
 </Container>
-
-
-@code
-{
-    private string _contentCardClass = "h-100 p-5 bg-dark text-white border rounded-3";
-}

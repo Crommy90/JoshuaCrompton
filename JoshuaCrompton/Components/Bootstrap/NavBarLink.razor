@@ -1,4 +1,4 @@
-<a class="nav-item nav-link" href="#">
+<a class="nav-item nav-link" href=@Href>
     @ChildContent
 </a>
 
@@ -6,5 +6,8 @@
 @code
 {
   [Parameter]
-    public RenderFragment ChildContent { get; set; }
+  public RenderFragment ChildContent { get; set; }
+
+  [Parameter, EditorRequired]
+  public string Href {private get; set; }
 }

@@ -1,0 +1,16 @@
+<ColumnResponsive Size=@Size>
+    <div class=@Constants.ClassCard>
+        @ChildContent
+    </div>
+</ColumnResponsive>
+
+@code
+{
+  [Parameter]
+  public RenderFragment ChildContent { get; set; }
+
+  [Parameter, EditorRequired]
+  public int Size { get; set; }
+}
+
+
