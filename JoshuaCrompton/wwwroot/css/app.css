@@ -4,18 +4,38 @@ html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1:focus {
-    outline: none;
+body {
+    min-height: 100vh;
+    /* background-color: #659DBD; */
+    background: linear-gradient( 200deg, #25274D, #46344E);
+    color: #FFFFFF;
 }
 
+
+h1 {
+    color: #FAC802;
+    font-weight: bolder;
+}
+
+    h1:focus {
+        outline: none;
+    }
+
 a, .btn-link {
-    color: #0071c1;
+    color: #FAC802;
 }
 
 .btn-primary {
     color: #fff;
     background-color: #1b6ec2;
     border-color: #1861ac;
+}
+
+
+a, .nav-link {
+    color: #FAC802;
+    text-decoration: underline;
+    /* text-decoration-style: dotted; */
 }
 
 .content {
