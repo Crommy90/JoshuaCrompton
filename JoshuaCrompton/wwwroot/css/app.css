@@ -13,29 +13,36 @@ body {
 
 
 h1 {
-    color: #FAC802;
     font-weight: bolder;
 }
-
     h1:focus {
         outline: none;
     }
 
-a, .btn-link {
+.emphasied {
     color: #FAC802;
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
+a {
+    color: #FFFFFF;
+    text-underline-offset: 5px;
 }
 
+    a:hover {
+        color: #FFFFFF;
+        text-decoration-style: double;
+    }
 
 a, .nav-link {
-    color: #FAC802;
+    color: #FFFFFF;
     text-decoration: underline;
+    /* text-underline-offset: 5px; */
     /* text-decoration-style: dotted; */
+}
+
+a, .navbar-brand {
+    color: #FFFFFF;
+    text-decoration: underline;
 }
 
 .content {

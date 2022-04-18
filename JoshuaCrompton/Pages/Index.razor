@@ -1,23 +1,30 @@
 ﻿@page "/"
 
 <Container Class=@Constants.ClassJumboTron>
-    <PageTitle>Joshua Crompton</PageTitle>
+    <PageTitle>Josh Crompton</PageTitle>
 
-    <Title>Hello, I'm Joshua Crompton</Title>
+    <Title>Hello, I'm Josh Crompton</Title>
 
-    <Subtitle>I'm a Tools Programmer in the Games Industry, currently working at Media Molecule.</Subtitle>
+    <Subtitle>I'm a Tools/Engine Programmer, currently working on tools at Media Molecule.</Subtitle>
 
-    <p>Paragraph text</p>
+    <p>I've helped ship X titles across Y platforms with over Z units sold</p>
+
+    <p>I can pick up any language quickly, and have extensive experience working in C++ (including modern C++ - C++ 11/14/17), C, C#, Python, Javascript/Typescript/HTML/CSS, and my new favourite web stack, Blazor/Razor/ASP.NET Core</p>
+
+    <p>Leadership, mentoring, planning</p>
+
+    <p>Take a look below for my experience, or you can get in touch with me via <a href=@Constants.LinkLinkedIn>LinkedIn</a> or on <a href=@Constants.LinkTwitter>Twitter</a></p>
 </Container>
+
 <Container>
     <RowResponsive>
         <Card Size=6>
-            <ContentTitle>Media Molecule</ContentTitle>
+            <ContentTitle Link=@Constants.MMPageURL>Media Molecule</ContentTitle>
             <p>Short blurb about Media Molecule</p>
         </Card>
         <Card Size=6>
-            <ContentTitle>Sports Interactive</ContentTitle>
-            <p>Short blurb about Sports Interactive</p>
+            <ContentTitle Link=@Constants.SIPageURL>Sports Interactive</ContentTitle>
+            <p>I spent 8 years at <a href=@Constants.SIPageURL>Sports Interactive</a> working on Football Manager going from a junior to a lead, developing a propietary engine across many discplines, including tools, engine, AI, animation, gameplay, and physics programming.</p>
         </Card>
     </RowResponsive>
 </Container>

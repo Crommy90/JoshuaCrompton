@@ -1,8 +1,22 @@
 
-<h2>@ChildContent</h2>
+<span class="emphasied">
+  <h2>
+    @if( Link != null )
+    {
+      <a href=@Link>@ChildContent</a>
+    }
+    else
+    {
+      @ChildContent
+    }
+  </h2>
+</span>
 
 @code
 {
   [Parameter]
   public RenderFragment ChildContent { get; set; }
+
+  [Parameter]
+  public string Link { get; set; }
 }
