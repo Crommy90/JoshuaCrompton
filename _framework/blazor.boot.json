@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "JoshuaCrompton.dll": "sha256-vynHN2fMLCFF4ylCx85AO\/t8zlj93oUG\/KU6dbZr7sk=",
+      "JoshuaCrompton.dll": "sha256-jbm60AYRaDjc+Of1qWxzYiyxgz1AC9zMdcDe8iuH9gY=",
       "Microsoft.AspNetCore.Components.dll": "sha256-7be+1y75A4U2WS3VFIRTLCJdHslzNbIvRgmR4W7kirQ=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-OC7FmUhOVgW4eEWvpQO9kizcPa8kwqwmc\/kQhvP2UAc=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-OfawION\/UfFO75U4pMPDVhHt71EbKuF3qxDeiPFGqKo=",
