@@ -1,0 +1,14 @@
+<ColumnResponsive Size=@Size>
+    <div class="h-100 p-5 border rounded-3">
+        @ChildContent
+    </div>
+</ColumnResponsive>
+
+@code
+{
+  [Parameter]
+  public RenderFragment ChildContent { get; set; }
+
+  [Parameter, EditorRequired]
+  public int Size { get; set; }
+}

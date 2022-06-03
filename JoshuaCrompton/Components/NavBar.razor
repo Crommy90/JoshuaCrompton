@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-sm">
+  <div class="container-fluid">
+    @if( Title != null )
+    {
+      <a class="navbar-brand" href="#">@Title</a>
+    }
+    <div class="navbar-nav d-flex">
+        @ChildContent
+    </div>
+  </div>
+</nav>
+
+@code
+{
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+    [Parameter]
+    public string Title { get; set; }
+}

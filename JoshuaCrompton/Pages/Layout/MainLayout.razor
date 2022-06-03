@@ -1,0 +1,38 @@
+﻿@using JoshuaCrompton.Components
+@inherits LayoutComponentBase
+
+<div class="page">
+    <Container>
+        <NavBar>
+            <NavBarContent>
+                Twitter
+            </NavBarContent>
+            <NavBarContent>
+                LinkedIn
+            </NavBarContent>
+        </NavBar>
+        <main>
+            <Container>
+                <Container Class="content mx-4 text-center">
+                    @Body
+                </Container>
+                <div class="row">
+                    <Card Size=6>
+                        <h3>Media Molecule</h3>
+                        <p>Web-based tooling</p>
+                        <p>Web-based tooling</p>
+                    </Card>
+                    <Card Size=6>
+                        <h3>Football Manager</h3>
+                        <p>Lead Programmer</p>
+                        <p>Engine, propeitary, C++</p>
+                        <p>Mentoring</p>
+                        <p>ImGui + command line tools</p>
+                        <p>Animation Engine</p>
+                        <p>Motion Capture</p>
+                    </Card>
+                </div>
+            </Container>
+        </main>
+    </Container>
+</div>
